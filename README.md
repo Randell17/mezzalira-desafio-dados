@@ -20,11 +20,13 @@ O resultado depende de duas decisões registradas na aba Log:
 | Códigos e fórmulas | `etapa1/` |
 | Instruções finais do Gem | `etapa2/instrucoes_gem.md` |
 | Testes e prints | `etapa2/testes.md` e `prints/` |
+| Notebook Python (Colab) | https://colab.research.google.com/drive/SEU_ID |
 
 ## Estrutura
 
 ```
 etapa1/
+  Desafio_Mezzalira_Etapa1.ipynb   notebook Colab: limpeza em Python e validação com a planilha
   formulas_sheets.md       fórmulas e recursos usados na Prata e na Ouro
   validacao_limpeza.py     refaz a limpeza em Python e confere a aba Ouro
 etapa2/
