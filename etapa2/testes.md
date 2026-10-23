@@ -16,4 +16,3 @@ Cada pergunta foi rodada mais de uma vez. Os prints das respostas que deram cert
 Frase de "não sei" definida nas instruções:
 > Esta informação não consta no Manual de Procedimentos de Manutenção da Metalúrgica Mezzalira. Por favor, consulte o supervisor do turno.
 
-Preencha a coluna "Resultado" (ex.: "OK em 3 de 3 execuções") depois de refazer os testes.
