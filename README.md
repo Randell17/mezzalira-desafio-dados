@@ -20,7 +20,7 @@ O resultado depende de duas decisões registradas na aba Log:
 | Códigos e fórmulas | `etapa1/` |
 | Instruções finais do Gem | `etapa2/instrucoes_gem.md` |
 | Testes e prints | `etapa2/testes.md` e `prints/` |
-| Notebook Python (Colab) | https://colab.research.google.com/drive/SEU_ID |
+| Notebook Python (Colab) | https://colab.research.google.com/drive/1564uqi5ugWlrTnyQTQS1dtlLhI8i1BDW?usp=sharing |
 
 ## Estrutura
 
@@ -44,16 +44,14 @@ prints/                    prints das respostas do Gem
 
 Problemas tratados: 3 linhas vazias, 4 duplicados, cidade escrita de várias formas (Recife, recife, REC), 7 valores como texto e 17 datas em texto (em dois formatos).
 
-## Validação em Python
+## Código em Python (Google Colab)
 
-O script refaz a limpeza a partir da planilha original e confere o resultado com a aba Ouro (pedidos únicos, total, cidade líder, mês de pico e unicidade dos pedidos).
+O notebook `etapa1/Desafio_Mezzalira_Etapa1.ipynb` refaz a limpeza em Python (Bronze → Prata → Log → Ouro) e confere o resultado com as abas da planilha, inclusive a comparação linha a linha com a Prata. Para rodar: abrir no Colab e executar tudo. A saída final deve ser `TUDO CONFERE.`
 
-```bash
-pip install -r requirements.txt
-python etapa1/validacao_limpeza.py caminho/pedidos_metalurgica_mezzalira.xlsx
-```
+Também há o script `etapa1/validacao_limpeza.py`, uma versão para rodar na linha de comando:
 
-Saída esperada: `TUDO CONFERE COM A ABA OURO.`
+    pip install -r requirements.txt
+    python etapa1/validacao_limpeza.py caminho/pedidos_metalurgica_mezzalira.xlsx
 
 A planilha original não está neste repositório.
 
